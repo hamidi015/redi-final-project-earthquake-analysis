@@ -1,0 +1,227 @@
+🌍 ReDI Final Project – Earthquake Analysis
+Project Roadmap & Requirements (Professional Version)
+1. Project Overview
+This project analyzes global earthquake activity using historical seismic data.
+The goal is to understand patterns, trends, and characteristics of earthquakes over time and across regions.
+
+The project demonstrates your skills in:
+
+Data cleaning
+
+Exploratory data analysis
+
+Visualization
+
+Insight generation
+
+Presenting findings clearly
+
+2. Project Folder Structure
+Create the following structure (you already did this):
+
+Code
+ReDI Final Project - Earthquake Analysis/
+│
+├── data/
+│   ├── earthquakes_global_raw.csv
+│   └── earthquakes_global_clean.csv
+│
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   ├── 02_cleaning.ipynb
+│   ├── 03_analysis.ipynb
+│   └── 04_visualizations.ipynb
+│
+├── visuals/
+│   ├── earthquakes_per_year.png
+│   ├── magnitude_distribution.png
+│   ├── depth_vs_magnitude.png
+│   └── top10_earthquakes.png
+│
+├── report/
+│   ├── final_presentation.pdf
+│   └── summary_report.pdf
+│
+└── docs/
+    ├── README.md
+    └── project_plan.txt
+3. Project Roadmap (Step‑by‑Step)
+This is the exact workflow you will follow.
+
+Step 1 — Define the Research Questions
+Your project will answer these professional, clear questions:
+
+Main Research Question
+How have global earthquake patterns changed over time, and what factors influence earthquake severity?
+
+Sub‑questions
+How many earthquakes occur each year globally?
+
+Are earthquakes becoming more or less frequent over time?
+
+Which regions experience the most earthquakes?
+
+What is the distribution of earthquake magnitudes?
+
+What is the relationship between earthquake depth and magnitude?
+
+What are the strongest earthquakes recorded in the dataset?
+
+These questions are perfect for ReDI because they are:
+
+Clear
+
+Measurable
+
+Easy to visualize
+
+Easy to explain in a 5‑minute presentation
+
+Step 2 — Load and Explore the Data
+Notebook: 01_exploration.ipynb
+
+Tasks:
+
+Load CSV
+
+Display first rows
+
+Check column names
+
+Check missing values
+
+Convert date/time to datetime
+
+Describe numerical columns
+
+Step 3 — Clean the Data
+Notebook: 02_cleaning.ipynb
+
+Tasks:
+
+Fix date/time format
+
+Remove invalid rows
+
+Convert magnitude to numeric
+
+Convert depth to numeric
+
+Create new columns:
+
+year
+
+month
+
+decade
+
+Save cleaned dataset as:
+
+earthquakes_global_clean.csv
+
+Step 4 — Exploratory Data Analysis
+Notebook: 03_analysis.ipynb
+
+Tasks:
+
+Earthquakes per year
+
+Earthquakes per magnitude category
+
+Earthquakes by depth
+
+Top 10 strongest earthquakes
+
+Most active regions
+
+Step 5 — Visualizations
+Notebook: 04_visualizations.ipynb
+
+Create charts such as:
+
+Line chart: earthquakes per year
+
+Histogram: magnitude distribution
+
+Scatter plot: depth vs magnitude
+
+Bar chart: top 10 strongest earthquakes
+
+Map (optional): earthquake locations
+
+Save all charts in the visuals/ folder.
+
+Step 6 — Insights & Recommendations
+Write a short summary:
+
+What patterns did you find?
+
+Which regions are most active?
+
+Are earthquakes increasing?
+
+What surprised you?
+
+Step 7 — Final Presentation
+Length: 5 minutes  
+Mode: Slides or live demo
+
+Slide Structure
+Introduction
+
+Project topic
+
+Why earthquakes matter
+
+What questions you answered
+
+Dataset Overview
+
+Source
+
+Time range
+
+Number of records
+
+Process
+
+Cleaning
+
+Exploration
+
+Visualizations
+
+Findings
+
+Key insights
+
+Charts
+
+Challenges & Learning
+
+What was difficult
+
+What you learned
+
+What you would improve
+
+Conclusion
+
+Summary
+
+Final message
+
+4. Your Project Is Now Fully Defined
+You now have:
+
+A clear topic
+
+A professional roadmap
+
+A set of research questions
+
+A complete workflow
+
+A presentation structure
+
+This is exactly what ReDI expects.

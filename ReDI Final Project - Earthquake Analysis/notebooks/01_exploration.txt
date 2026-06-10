@@ -1,0 +1,13 @@
+Main Question
+How have global earthquake patterns changed over time?
+
+Supporting Questions
+How many earthquakes occur each year
+
+Which regions experience the most earthquakes
+
+How are earthquake magnitudes distributed
+
+What is the relationship between depth and magnitude
+
+What are the strongest earthquakes in the dataset
